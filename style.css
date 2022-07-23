@@ -1,0 +1,68 @@
+body {
+	background-image: url(bgimage.webp);
+}
+
+.p-margin {
+	margin-top: 1cm;
+}
+
+.formPos {
+	background-color: whitesmoke;
+	color: black;
+	position: relative;
+	margin-top: 2cm;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 1cm;
+	border-radius: 10px;
+
+}
+
+.button-center {
+	display: block;
+	margin-top: 1cm;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+}
+
+span {
+	color: blue;
+}
+
+/* small is at 576+ pixels */
+@media (min-width: 576px) {
+
+	body {
+		background-color: #7393B3;
+	}
+
+	.formPos {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.title {
+		float: left;
+		color: white;
+		font-family: 'Roboto';
+		font-weight: bold;
+		padding: 0;
+		width: auto;
+		margin-top: 150px;
+		font-size: 4rem;
+		margin-left: 8%;
+	}
+}
+
+@media (min-width: 992px) {
+
+	body {
+		background-color: #36454F;
+	}
+
+	.formPos {
+		margin-left: 60%;
+		margin-right: 5%;
+	}
+}
